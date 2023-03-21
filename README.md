@@ -17,13 +17,11 @@ Prior to joining the chair, I studied [Software Engineering](https://elite-se.in
 
 
 
-Current and past research interests (links) and a list of publications can be found below (link)
-
-Download CV. 
+Current and past [research interests](#Research interests) and a [list of publications](Publications) can be found below (link)
 
 
 
-## Research interest
+## Research interests
 
 My area of research is Software Quality. Software quality is viewpoint-specific and multi-dimensional. The aspects I am most interested in include
 
