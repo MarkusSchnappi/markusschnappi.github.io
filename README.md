@@ -116,8 +116,9 @@ These are my profiles on [Google Scholar](https://scholar.google.de/citations?hl
 In addition, I received honorable mentions for contributions by: 
 
 - Aldenhoven, Celine; Engelschall, Ralf S.: The beauty of software architecture, International Conference on Software Architecture (ICSA), 2023
-- Elsner, Daniel, Hauer, Florian; Pretschner, Alexander; Reimer, Silke: Empirically Evaluating Readily Available Information for Regression Test Optimization in Continuous Integration. International Symposium on Software Testing and Analysis (ISSTA), 2021
+- Elsner, Daniel; Hauer, Florian; Pretschner, Alexander; Reimer, Silke: Empirically Evaluating Readily Available Information for Regression Test Optimization in Continuous Integration. International Symposium on Software Testing and Analysis (ISSTA), 2021
+- Lipp, Stephan; Banescu, Sebastian; Pretschner, Alexander: An empirial study on the effectivness of static C code analyzers for vulnerability detection, International Symphosium on Software Testing and Analysis (ISSTA), 2022
 
 
 
-I also serve as a Journal reviewer for the Springer Journal on Software and System Modeling.
+I also serve as a Journal reviewer for the Springer Journal on Software and System Modeling (SoSym)
