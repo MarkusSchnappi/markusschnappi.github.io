@@ -1,8 +1,10 @@
 ---
 layout: cv
 permalink: /cv/
-title: cv
+title: CV
+description: Please contact me via email or LinkedIn if you are interested in an up-to-date cv.
 nav: true
 nav_order: 4
-cv_pdf: example_pdf.pdf
 ---
+
+Please contact me via email or LinkedIn if you are interested in an up-to-date cv.

@@ -1,8 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2023-03-28
 inline: true
-related_posts: false
 ---
 
-A simple inline announcement.
+Today was my last working day at TUM. While I enjoyed every day at the Chair of Software and Systems Engineering and will certainly miss all my colleagues there, I am now looking forward to the new chapter at msg Research!
