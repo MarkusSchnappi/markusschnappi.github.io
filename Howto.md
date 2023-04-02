@@ -10,6 +10,39 @@
 
 
 
+# deploy
+
+- git checkout main
+
+- build container from their dockerfile, but mount docs(local) auf deren /srv/jekyll  WORKDIR folder
+
+- run deploy script
+
+- Push to gh-pages branch!
+
+```
+bundle install
+export JEKYLL_ENV=production
+bundle exec jekyll build --lsi
+
+# Delete and move files
+find . -maxdepth 1 ! -name '_site' ! -name '.git' ! -name 'CNAME' ! -name '.gitignore' -exec rm -rf {} \;
+mv _site/* .
+rm -R _site/
+
+# Create `.nojekyll` file (bypass GitHub Pages Jekyll processing)
+touch .nojekyll
+
+# Push to DEPLOY_BRANCH
+git add -fA
+git commit --allow-empty -m "$(git log -1 --pretty=%B) [ci skip]"
+[[ ${NO_PUSH} ]] || git push -f -q origin $DEPLOY_BRANCH
+
+# Move back to SRC_BRANCH
+git checkout $SRC_BRANCH
+
+```
+
 
 
 # General
